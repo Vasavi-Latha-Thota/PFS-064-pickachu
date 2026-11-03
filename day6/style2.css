@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.nav{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    background-color:lightslategray;
+   
+}
+.nav-1{
+    height: 100%;
+    flex: 0.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-2{
+   height: 100%;
+   flex: 1;
+   display: flex;
+   justify-content: end;
+   align-items: center;
+   gap: 20px;
+   padding-right: 30px;
+
+    
+
+
+}
+.hero{
+    width: 100%;
+    height: 60vh;
+    /* background-color:rgb(37, 37, 36); */
+    background-image: url(../cloud.png);
+    background-repeat: no-repeat;
+
+    background: size 100% 100% ;
+
+    display: flex;
+
+    padding: 20px;
+  
+}
+.hero1{
+    height: 100%;
+    flex: 1;
+    display: flex;
+    /* background-color: aqua; */
+
+}
+
+.h1-p1-btn-L{
+    height: 100%;
+    flex: 0.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-p1-info{
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+
+
+
+.h1-p1-btn-R{
+    height: 100%;
+    flex: 0.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+
+}
+.hero2{
+    height: 100%;
+    flex: 0;
+    /* background-color: darkgoldenrod; */
+}
+
+
+.service{
+    height: 60vh;
+    width: 100%;
+    background-color: chartreuse;
+    /* border: 1; */
+    flex-direction: column;
+    display: flex;
+
+}
+
+.service-1{
+    height: 100%;
+    flex: 0.2;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+
+.service-2{
+    height: 100%;
+    flex: 1;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+
+
+
+
+
+.project{
+    height: 60vh;
+    width: 100%;
+    /* background-color: yellow; */
+    /* border: 1; */
+    flex-direction: column;
+    display: flex;
+    
+
+}
+
+.project-1{
+    height: 100%;
+    flex:0.3;
+    /* background-color: dodgerblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.project-2{
+    height: 100%;
+    flex: 1;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    justify-content: center;
+    
+
+}
+.project-3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px 0;
+}
+
+.project-3 button {
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.credits {
+    width: 100%;
+    height: 150px;
+    background-color: #172333;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.credits-1 {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+}
+
+.credits-1 h2 {
+    color: orange;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.credits-1 p {
+    color: white;
+    font-size: 14px;
+}
+
+
+/* FOOTER SECTION */
+.footer {
+    width: 100%;
+    background-color: #101a28;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 25px;
+    padding: 40px 25px;
+}
+
+.footer-1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-1 h3 {
+    color: orange;
+    margin-bottom: 5px;
+}
+
+.footer-1 p,
+.footer-1 a {
+    color: white;
+    font-size: 15px;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+
+/* COPYRIGHT */
+.copyright {
+    width: 100%;
+    padding: 15px;
+    background-color: #0a111b;
+    text-align: center;
+}
+
+

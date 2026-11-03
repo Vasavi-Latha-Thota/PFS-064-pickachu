@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.nav{
+    height: 10vh;
+    width:100%;
+    /* background-color: blue; */
+    display: flex;
+
+}
+
+
+.nav-1{
+    height:100%;
+    flex:0.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-2{
+    height: 100%;
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+
+.nav-3{
+    height: 100%;
+    flex:0.3;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:10px
+
+}
+
+
+.nav-4{
+     height: 100%;
+    flex:0.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px
+
+
+}
+
+.hero{
+    height: 60vh;
+    width:100%;
+    /* background-color: red; */
+    background-image: url(./bag2.png);
+     display: flex;
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.feature{
+    height: 10vh;
+    width:100%;
+    background-color: green;
+}
+
+.cards{
+    height: 60vh;
+    width:100%;
+    background-color: yellow;
+}
+
+
+.info{
+    height: 30vh;
+    width:100%;
+    background-color: orange;
+}
+
+
+.social{
+    height: 10vh;
+    width:100%;
+    background-color: purple;
+}
+
